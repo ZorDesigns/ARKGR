@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  
+<!-- Mirrored from skywarriorthemes.com/orizon/wp/wp-content/plugins/layerslider/static/codemirror/demo/marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jun 2015 23:47:58 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>CodeMirror: Breakpoint Demo</title>
+    <link rel="stylesheet" href="../lib/codemirror.css">
+    <script src="../lib/codemirror.js"></script>
+    <script src="../mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="../doc/docs.css">
+
+    <style type="text/css">
+      .breakpoints {width: .8em;}
+      .breakpoint { color: #822; }
+      .CodeMirror {border: 1px solid #aaa;}
+    </style>
+  </head>
+  <body>
+    <h1>CodeMirror: Breakpoint demo</h1>
+
+    <form><textarea id="code" name="code">
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  gutters: ["CodeMirror-linenumbers", "breakpoints"]
+});
+editor.on("gutterClick", function(cm, n) {
+  var info = cm.lineInfo(n);
+  cm.setGutterMarker(n, "breakpoints", info.markers ? null : makeMarker());
+});
+
+function makeMarker() {
+  var marker = document.createElement("div");
+  marker.innerHTML = "●";
+  marker.className = "breakpoint";
+  return marker;
+}
+</textarea></form>
+
+<p>Click the line-number gutter to add or remove 'breakpoints'.</p>
+
+    <script>
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  gutters: ["CodeMirror-linenumbers", "breakpoints"]
+});
+editor.on("gutterClick", function(cm, n) {
+  var info = cm.lineInfo(n);
+  cm.setGutterMarker(n, "breakpoints", info.gutterMarkers ? null : makeMarker());
+});
+
+function makeMarker() {
+  var marker = document.createElement("div");
+  marker.style.color = "#822";
+  marker.innerHTML = "●";
+  return marker;
+}
+    </script>
+
+  </body>
+
+<!-- Mirrored from skywarriorthemes.com/orizon/wp/wp-content/plugins/layerslider/static/codemirror/demo/marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jun 2015 23:47:58 GMT -->
+</html>
