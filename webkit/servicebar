@@ -1,10 +1,10 @@
 <link href="assets/themes/arkgr/css/red_css/nav.css" rel="stylesheet" type="text/css">
-<div xmlns="http://www.w3.org/1999/xhtml" id="nav-client-header" class="nav-client compact">
+<div id="nav-client-header" class="nav-client compact">
 <div id="nav-client-bar">
 <div class="grid-container nav-header-content">
 <ul class="nav-list nav-left" id="nav-client-main-menu">
 <li>
-<a id="nav-client-home" class="nav-item nav-home" href="/en/" data-analytics="global-nav" data-analytics-placement="Home"></a>
+<a id="nav-client-home" class="nav-item nav-home" href="#" data-analytics="global-nav" data-analytics-placement="Home"></a>
 </li>
 <li>
 <a id="nav-client-shop" class="nav-item nav-link" href="index.php" data-analytics="global-nav" data-analytics-placement="Home">Home</a>
@@ -14,19 +14,19 @@
 <li>
 <div id="username">
 <div class="dropdown pull-right">
-<a class="nav-link username dropdown-toggle" data-toggle="dropdown" rel="navbar">Your account<b class="caret"></b></a>
+<a class="nav-link username dropdown-toggle" data-toggle="dropdown" rel="navbar">Account<b class="caret"></b></a>
 <div class="dropdown-menu">
 <div class="arrow top"></div>
 <div class="user-profile">
 <div class="dropdown-section">
 <div class="nav-box">
-<a class="nav-item nav-btn nav-btn-block nav-login-btn" href="login.php" data-analytics="global-nav" data-analytics-placement="Log In">Log In</a>
+<a class="nav-item nav-btn nav-btn-block nav-login-btn" href="login.php" data-analytics="global-nav" data-analytics-placement="Log In">Σύνδεση</a>
 </div>
 </div>
 <div class="dropdown-section">
 <ul class="nav-list">
 <li>
-<a class="nav-item nav-a nav-item-box" href="login.php" data-analytics="global-nav" data-analytics-placement="Settings"><i class="nav-icon-24-blue nav-icon-character-cog"></i>Account Settings</a>
+<a class="nav-item nav-a nav-item-box" href="login.php" data-analytics="global-nav" data-analytics-placement="Settings"><i class="nav-icon-24-blue nav-icon-character-cog"></i>Ρυθμίσεις Λογαριασμού</a>
 </li>
 </ul>
 </div>

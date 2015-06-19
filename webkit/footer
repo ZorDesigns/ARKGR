@@ -1,0 +1,22 @@
+<div id="footer">
+<div class="row">
+<div class="footer_widget"><h3>ΑΚΟΛΟΥΘΗΣΤΕ ΜΑΣ!</h3>
+<div class="latest-twitter-tweet"><i class="icon-twitter"></i> &quot;We will open a Twitter account soon<a href="#"> link</a></div></div>
+<div class="footer_widget">
+<h3>Πρόσφατες δημοσιεύσεις</h3>
+<ul>
+<li>
+<a href="#"><i class="icon-gear"></i> Patch 177</a>
+</li>
+</ul>
+</div>
+<div class="footer_widget">
+<h3>Πρόσφατα Θέματα</h3>
+<ul>
+<li>
+<a href="#"><i class="icon-flag"></i> Πόρτα για Ράπτορες!</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
