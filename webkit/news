@@ -1,0 +1,40 @@
+<?php
+$sql_n = "SELECT * FROM main_news";
+$news = mysqli_query($arkcon,$sql_n)or die(mysqli_error());
+while($row_n = mysqli_fetch_array($news)) {
+$id = $row_n['id'];
+$title = $row_n['title'];
+$author = $row_n['author'];
+$date = $row_n['date'];
+$content = substr(strip_tags($row_n['content']),0,390);
+$content_ink = $row_n['contentlnk'];
+$comments = $row_n['comments'];
+$image = $row_n['image'];
+$from = $row_n['from'];
+$continue = $row_n['continue'];
+echo '
+<ul id="general_news">
+<li>
+<div class="image"><a href="#">
+<img width="900" height="469" src="assets/uploads/2013/01/'.$image.'.png" class="attachment-post-thumbnail wp-post-image" alt="3" /></a></div>
+<ul class="social_share">
+<li><a target="_blank" href="#"><img alt="alt_example" src="assets/themes/arkgr/css/red_css/images/fbk.png" border="0" /></a></li>
+<li><a target="_blank" href="#"><img alt="alt_example" src="assets/themes/arkgr/css/red_css/images/twitter.png" border="0" /></a></li>
+<li><a href="news.php?id='.$content_ink.'"><img alt="alt_example" src="assets/themes/arkgr/css/red_css/images/more.png" border="0" /></a></li>
+</ul>
+<div class="info">
+<div class="comments">
+<a href="news.php?id='.$content_ink.'" class="comments-link">'.$comments.'</a></div>
+<h2><a href="#">
+<i class="icon-star"></i> '.$title.'</a></h2>
+<div class="date_n_author">
+'.$date.', '.$from.' '.$author.'</div>
+<p>
+'.$content.'
+<a href="news.php?id='.$content_ink.'" class="read_more2">'.$continue.'</a> </div>
+<div class="clear"> </div>
+</li>
+</ul>
+';
+}
+?>

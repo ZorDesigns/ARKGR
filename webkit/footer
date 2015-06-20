@@ -20,3 +20,12 @@
 </div>
 </div>
 </div>
+<a id="cop_text" href="//arkgr.com/" name="cop_text">ARK GR Community © 2015</a><a id="cop_text" href="//flamecms.org/" name="cop_text">Powered by FlameCMS</a>
+<div class="social">
+<a data-original-title="Rss" data-toggle="tooltip" class="rss" target="_blank" href="#"><i class="fa fa-rss"></i> </a>
+<a data-original-title="Youtube" data-toggle="tooltip" class="youtube" target="_blank" href="https://www.youtube.com/channel/UCcegG7KKMvpd7UVFHdJ4tTQ"><i class="fa fa-youtube"></i> </a>
+<a data-original-title="Steam" data-toggle="tooltip" class="steam" target="_blank" href="http://store.steampowered.com/app/346110/"><i class="fa fa-gamepad"></i></a>
+<a data-original-title="Google plus" data-toggle="tooltip" class="google-plus" target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+<a data-original-title="Twitter" data-toggle="tooltip" class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+<a data-original-title="Facebook" data-toggle="tooltip" class="facebook" target="_blank" href="https://www.facebook.com/ARKGRGaming"><i class="fa fa-facebook"></i></a>
+</div>
