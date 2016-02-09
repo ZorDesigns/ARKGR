@@ -5,7 +5,7 @@ require_once("config.php");
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="el">
 <?php include('webkit/head'); ?>
-<bodyclass="home blog">
+<body class="home blog">
 <?php include("webkit/servicebar") ?>
 <link rel="stylesheet" href="assets/themes/arkgr/css/red_css/post.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 <link rel="stylesheet" href="assets/themes/arkgr/css/red_css/validationEngine.jquery.css" type="text/css" media="screen" title="no title" charset="utf-8" />

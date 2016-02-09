@@ -7,10 +7,20 @@ background:#e50505;
 html{
 background-color:#000000;
 }
-body{
-        background-attachment: fixed !important;
-	background:url(images/bg.jpg) no-repeat center top;
+
+video#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
 }
+
 #footer_image {
 	background:url(images/footer_bg.jpg) no-repeat center bottom;
 }

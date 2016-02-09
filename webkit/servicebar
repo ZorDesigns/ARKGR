@@ -1,3 +1,8 @@
+<video autoplay="" loop="" id="bgvid">
+<source src="assets/video/ark-bg-main.webm" type="video/webm">
+<source src="assets/video/ark-bg-main.mp4" type="video/mp4">
+<source src="assets/video/ark-bg-main.ogg" type="video/ogg">
+</video>
 <link href="assets/themes/arkgr/css/red_css/nav.css" rel="stylesheet" type="text/css">
 <div id="nav-client-header" class="nav-client compact">
 <div id="nav-client-bar">
